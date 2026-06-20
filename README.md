@@ -45,6 +45,8 @@ simple-git-rag/
     # Windows (PowerShell)
     irm [https://astral.sh/uv/install.ps1](https://astral.sh/uv/install.ps1) | iex
 
+---
+
 Installation & Setup
 1. ​Clone the repository and navigate to the project root:
 
