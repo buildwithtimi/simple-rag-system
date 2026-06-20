@@ -36,3 +36,19 @@ def seed_vector_db(collection, chunks, metadatas, ids):
         print(f"📦 Indexed chunks {i} to {min(end_idx, len(chunks))}...")
         
     print("✅ Vector database seeding complete and saved to disk!")
+
+
+def query_vector_db(collection, user_query, num_results=3):
+    """Queries ChromaDB and returns the top matching text documents."""
+    print(f"🔍 Searching database for: '{user_query}'...")
+    
+    results = collection.query(
+        query_texts=[user_query],
+        n_results=num_results
+    )
+    
+    # Chroma returns a nested dictionary structure. Let's extract the clean list of text chunks.
+    matched_documents = results['documents'][0]
+    matched_metadatas = results['metadatas'][0]
+    
+    return matched_documents, matched_metadatas
