@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# simple-rag-system/.gitignore
+
+# Python execution artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments (uv automatically creates .venv)
+.venv/
+
+# Environment configuration files (CRITICAL SECURITY)
+.env
+.env.local
+.env.*.local
+
+# Local Databases and Vector Storage
+chroma_db/
+
+# OS specific files
+.DS_Store
+Thumbs.db
