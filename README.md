@@ -48,11 +48,13 @@ simple-git-rag/
 Installation & Setup
 1. ​Clone the repository and navigate to the project root:
 
-git clone <https://github.com/buildwithtimi/simple-rag-system.git>
-cd simple-git-rag
+    git clone <https://github.com/buildwithtimi/simple-rag-system.git>
+    cd simple-git-rag
 
 2. ​Configure your environment variables:
    Create a file named .env in the root directory and paste your Google AI Studio credential inside:
+
+    GEMINI_API_KEY=AIzaSyYourActualGeminiAPIKeyHere
 
 3. ​Install dependencies automatically:
    The project dependencies are managed via uv. They will automatically install the first time you run the application.
