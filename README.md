@@ -35,7 +35,9 @@ simple-git-rag/
 └── pyproject.toml          # Project metadata and uv dependencies
 
 ---
-🚀 Getting Started
+
+## 🚀 Getting Started
+
 ​Prerequisites
 ​This project utilizes uv, the ultra-fast Python package and project manager. If you do not have it installed, run the following command in your terminal:
 
@@ -55,7 +57,9 @@ Installation & Setup
    The project dependencies are managed via uv. They will automatically install the first time you run the application.
 
 ---
-​💻 Usage
+
+​## 💻 Usage
+
 ​To launch the interactive command-line interface loop, execute the application as a module from the root directory:
 
     uv run python -m src.main
