@@ -33,6 +33,7 @@ simple-git-rag/
 ├── .env                    # Local credentials (git-ignored)
 ├── .gitignore              # Security and artifact filters
 └── pyproject.toml          # Project metadata and uv dependencies
+```
 
 ---
 
@@ -58,7 +59,7 @@ Installation & Setup
 
 ---
 
-​## 💻 Usage
+## 💻 Usage
 
 ​To launch the interactive command-line interface loop, execute the application as a module from the root directory:
 
