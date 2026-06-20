@@ -48,7 +48,7 @@ simple-git-rag/
 Installation & Setup
 1. ​Clone the repository and navigate to the project root:
 
-    git clone <your-repo-url>
+    git clone <https://github.com/buildwithtimi/simple-rag-system.git>
     cd simple-git-rag
 
 2. ​Configure your environment variables:
