@@ -48,8 +48,8 @@ simple-git-rag/
 Installation & Setup
 1. ​Clone the repository and navigate to the project root:
 
-    git clone <https://github.com/buildwithtimi/simple-rag-system.git>
-    cd simple-git-rag
+git clone <https://github.com/buildwithtimi/simple-rag-system.git>
+cd simple-git-rag
 
 2. ​Configure your environment variables:
    Create a file named .env in the root directory and paste your Google AI Studio credential inside:
